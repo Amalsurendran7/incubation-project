@@ -164,19 +164,6 @@ class UserEdit(APIView):
         except:
             return Response("not found")  
 
-        # print(request.data['arr'])
-        # n= request.data['arr'] 
-        # a=[]
-        # for i in range(len(n)):
-         
-        #     if n[i] is None:
-        #          pass
-
-        #     else:
-                
-        #         a.append(n[i])  
-        #     print(a)
-        # m=set(a)
   
         print("initial",request.data)  
         print(type(request.data))
